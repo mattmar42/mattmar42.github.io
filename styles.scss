@@ -1,0 +1,118 @@
+/*variables*/
+$sgiblue: #7D9EC0;
+$silver: #C0C0C0;
+/*variables end*/
+
+body {
+	font-family: 'Droid Sans', sans-serif;
+	background-color: #5bc0de;
+}
+
+div {
+	color: white;
+	&#header-jumbo {
+		height: 1000px;
+		padding-top: 5%;
+		margin-top: 2%;
+		color: white;
+		background-color: $sgiblue;
+		max-height: 100%;
+	}
+	&.nav-div {
+		margin-bottom: 3%;
+	}
+	&.div-one {
+		height: 1000px;
+		max-height: 100%;
+		margin-top: -50px;
+		background-color: $sgiblue;
+		border-top: 5px solid black;
+		p {
+			font-size: 1.3em;
+		}
+	}
+	&#div-two {
+		height: 1100px;
+		max-height: 100%;
+		background-color: darken($sgiblue, 30%);
+		margin-top: -50px;
+		border-top: 5px solid black;
+		padding: 1%;
+		p {
+			font-size: 1.3em;
+		}
+	}
+	&#div-three {
+		background-color: $sgiblue;
+		border-top: 5px solid black;
+	}
+	&#div-four {
+		background-color: $sgiblue;
+	}
+	&#div-five {
+		border-top: 5px solid white;
+		background-color: darken($sgiblue, 40%);
+	}
+	&.overline {
+		padding: 15px;
+		border-top: 3px solid white;
+	}
+
+}
+
+nav {
+	font-size: 1.2em;
+	margin-bottom: 2%;
+	opacity: 0.9;
+}
+
+h1{
+	display: none;
+	&#main-head {
+	padding: 30px;
+	}
+}
+
+p {
+	display: none;
+	&#header-p {
+		font-size: 1.5em;
+	}
+	&.card-text {
+		color: black;
+	}
+
+}
+
+li {
+	display: none;
+	font-size: 1.1em;
+	padding: 5px;
+	color: darken(white, 10%);
+}
+
+img {
+	border-radius: 10px;
+	&.icon {
+		height: 40px;
+		width: 40px;
+		margin-left: 50px;
+	}
+	&.card-image {
+		width: 500px;
+		height: 300px;
+	}
+}
+
+#exCollapsingNavbar2 {
+		padding: 10px;
+}
+
+.grayscale {
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+}
+
+.text-muted {
+	color: black;
+}
