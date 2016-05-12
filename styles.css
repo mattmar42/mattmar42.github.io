@@ -15,7 +15,7 @@ div {
     padding-top: 2%;
     margin-top: 2%;
     color: white;
-    background-image: url("Projectimages/clt.PNG"); }
+    background-image: url("Projectimages/clt.JPG"); }
   div.nav-div {
     margin-bottom: 3%; }
   div#div-one {
@@ -48,20 +48,15 @@ nav {
   margin-bottom: 2%;
   opacity: 0.9; }
 
-h1 {
-  display: none; }
-  h1#main-head {
-    padding: 30px; }
+h1#main-head {
+  padding: 30px; }
 
-p {
-  display: none; }
-  p#header-p {
-    font-size: 1.5em; }
-  p.card-text {
-    color: black; }
+p#header-p {
+  font-size: 1.5em; }
+p.card-text {
+  color: black; }
 
 li {
-  display: none;
   font-size: 1.1em;
   padding: 5px;
   padding-bottom: 10px;
@@ -79,11 +74,10 @@ img#me-img {
 img.about-pic {
   margin: 10px;
   border: 3px solid gray;
-  height: 200px;
-  width: 250px; }
+  height: 225px;
+  width: 300px; }
 
 button#white-button {
-  display: none;
   background-color: transparent;
   color: white;
   border: 3px solid white;

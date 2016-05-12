@@ -1,10 +1,5 @@
 $(document).ready(function(){
 
-	$('h1').fadeIn(1000);
-    $('#white-button').fadeIn(2500);
-	$('p').fadeIn(2200);
-	$('li').fadeIn(2200);
-
 	$('a[href^="#"]').on('click', function(event){
 
     var target = $($(this).attr('href'));
