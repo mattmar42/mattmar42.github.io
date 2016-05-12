@@ -83,6 +83,7 @@ img.about-pic {
   width: 250px; }
 
 button#white-button {
+  display: none;
   background-color: transparent;
   color: white;
   border: 3px solid white;
