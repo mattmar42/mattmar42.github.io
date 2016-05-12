@@ -93,23 +93,15 @@ li {
 	display: none;
 	font-size: 1.1em;
 	padding: 5px;
+	padding-bottom: 10px;
 	color: darken(white, 10%);
 }
 
 img {
-	border-radius: 10px;
 	&.icon {
 		height: 40px;
 		width: 40px;
 		margin-left: 50px;
-	}
-	&.card-image {
-		width: 500px;
-		height: 300px;
-	}
-	&#me-img {
-		height: 300px;
-		width: 300px;
 	}
 }
 
@@ -121,4 +113,10 @@ img {
 	-webkit-filter: grayscale(100%); 
 	filter: grayscale(100%);
 }
+#me-img {
+		height: 350px;
+		width: 350px;
+		border: 5px solid white;
+		border-radius: 5px;
+	}
 
