@@ -14,7 +14,7 @@ div {
 	&#header-jumbo {
 		background-color: black;
 		background-size: cover;
-		height: 1100px;
+		height: 100vh;
 		max-height: 100%;
 		max-width: 100%;
 		padding-top: 2%;
@@ -26,19 +26,15 @@ div {
 	&.nav-div {
 		margin-bottom: 3%;
 	}
-	&.div-one {
-		height: 1100px;
-		max-height: 100%;
+	&#div-one {
 		margin-top: -35px;
 		background-color: darken($neutralgray, 60%);
-		margin-bottom: 50px;
+		margin-bottom: 1%;
 		p {
 			font-size: 1.3em;
 		}
 	}
 	&#div-two {
-		height: 1100px;
-		max-height: 100%;
 		background-color: darken($sgiblue, 30%);
 		margin-top: -50px;
 		padding-top: 50px;
@@ -103,6 +99,36 @@ img {
 		width: 40px;
 		margin-left: 50px;
 	}
+	&#me-img {
+		height: 350px;
+		width: 350px;
+		border: 5px solid gray;
+		border-radius: 5px;
+	}
+	&.about-pic {
+		margin: 10px;
+		border: 3px solid gray;
+		height: 200px;
+		width: 250px;
+	}
+}
+button {
+	&#white-button {
+		background-color: transparent;
+		color: white;
+		border: 3px solid white;
+		width: 200px;
+		height: 60px;
+		margin-top: 15px;
+		&:hover {
+			background-color: white;
+			color: black;
+			border: 1px solid white;
+		}
+		&:focus {
+			outline: 0;
+		}
+	}
 }
 
 #exCollapsingNavbar2 {
@@ -113,10 +139,3 @@ img {
 	-webkit-filter: grayscale(100%); 
 	filter: grayscale(100%);
 }
-#me-img {
-		height: 350px;
-		width: 350px;
-		border: 5px solid white;
-		border-radius: 5px;
-	}
-
