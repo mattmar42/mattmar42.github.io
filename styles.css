@@ -2,25 +2,28 @@
 /*variables end*/
 body {
   font-family: 'Droid Sans', sans-serif;
-  background-color: #5bc0de; }
+  background-color: black; }
 
 div {
   color: white; }
   div#header-jumbo {
-    height: 1000px;
-    padding-top: 5%;
+    background-color: black;
+    background-size: cover;
+    height: 1100px;
+    max-height: 100%;
+    max-width: 100%;
+    padding-top: 2%;
     margin-top: 2%;
     color: white;
-    background-color: #7D9EC0;
-    max-height: 100%; }
+    background-image: url("Projectimages/clt.PNG"); }
   div.nav-div {
     margin-bottom: 3%; }
   div.div-one {
-    height: 1000px;
+    height: 1100px;
     max-height: 100%;
-    margin-top: -50px;
-    background-color: #7D9EC0;
-    border-top: 5px solid black; }
+    margin-top: -35px;
+    background-color: #575757;
+    margin-bottom: 50px; }
     div.div-one p {
       font-size: 1.3em; }
   div#div-two {
@@ -28,21 +31,21 @@ div {
     max-height: 100%;
     background-color: #36526e;
     margin-top: -50px;
-    border-top: 5px solid black;
+    padding-top: 50px;
     padding: 1%; }
     div#div-two p {
       font-size: 1.3em; }
   div#div-three {
-    background-color: #7D9EC0;
-    border-top: 5px solid black; }
+    background-color: #575757;
+    padding-top: 50px; }
   div#div-four {
-    background-color: #7D9EC0; }
+    background-color: #575757; }
   div#div-five {
-    border-top: 5px solid white;
-    background-color: #25384c; }
+    border-top: 2px solid white;
+    background-color: #36526e; }
   div.overline {
     padding: 15px;
-    border-top: 3px solid white; }
+    border-top: 1px solid white; }
 
 nav {
   font-size: 1.2em;
@@ -76,6 +79,9 @@ img {
   img.card-image {
     width: 500px;
     height: 300px; }
+  img#me-img {
+    height: 300px;
+    width: 300px; }
 
 #exCollapsingNavbar2 {
   padding: 10px; }
@@ -83,8 +89,5 @@ img {
 .grayscale {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%); }
-
-.text-muted {
-  color: black; }
 
 /*# sourceMappingURL=styles.css.map */
