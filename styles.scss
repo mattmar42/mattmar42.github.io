@@ -131,7 +131,7 @@ button {
 input {
 	width: 300px;
 	height: 40px;
-	max-width: 100%;
+	max-width: 90%;
 	font-size: 1.2em;
 	color: white;
 	background-color: darken($neutralgray, 60%);
@@ -147,8 +147,9 @@ input {
 	}
 }
 textarea {
-	width: 400px;
+	width: 350px;
 	height: 200px;
+	max-width: 90%;
 	margin-top: 5px;
 	font-size: 1.2em;
 	color: white;
